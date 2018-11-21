@@ -13,3 +13,6 @@ Ou seja, uma classe gerencia a própria instância dela além de evitar que qual
 Para criar a instancia tem-se que passar pela classe obrigatoriamente, nenhuma outra classe pode instanciar ela. 
 O Padrão Singleton também oferece um ponto global de acesso a sua instância. A própria classe sempre vai oferecer a 
 própria instância dela e caso não tenha ainda uma instância, então ela mesma cria e retorna essa nova instância criada.</p>
+
+<h2><b>Verificamos a imagem abaixo.</b></h2>
+![padraosingleton_java1](https://user-images.githubusercontent.com/34414598/48813997-52483380-ed20-11e8-9f33-f0065e73e4f0.jpg)
