@@ -14,8 +14,8 @@ Para criar a instancia tem-se que passar pela classe obrigatoriamente, nenhuma o
 O Padrão Singleton também oferece um ponto global de acesso a sua instância. A própria classe sempre vai oferecer a 
 própria instância dela e caso não tenha ainda uma instância, então ela mesma cria e retorna essa nova instância criada.</p>
 
-<h2><b>Verificamos a imagem abaixo.</b></h2>
-
+<h2><b>Entendendo um pouco melhor sobre o padrão</b></h2>
 
 ![padraosingleton_java1](https://user-images.githubusercontent.com/34414598/48813997-52483380-ed20-11e8-9f33-f0065e73e4f0.jpg)
 
+<p>Observando a imagem acima verificamos que ela se refereque ela se refere ao diagrama de classe do padrão Singleton, nela tem-se o atributo singleton que é do tipo da sua própria classe e é estático, nessa variável tem-se a única instância da classe. Nos métodos pode-se observar a presença do construtor da classe Singleton() que é PRIVADO. Ou seja, um construtor privado não permite que a classe seja instanciada a não ser que seja feito por ela mesmo na qual será instanciada pelo método getInstance() que é estático e assim pode ser acessado de qualquer outra classe sem precisar instanciar Singleton. No exemplo veremos mais uma peculiaridade do método getInstance().</p>
