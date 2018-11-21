@@ -1,5 +1,3 @@
-# singleton
-Trabalho de engenharia de software III sobre padrões de desenvolvimento.
 <h1>Singleton</h1>
 
 <h2><b>Design Patterns</b></h2>
