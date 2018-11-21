@@ -15,6 +15,7 @@ O Padrão Singleton também oferece um ponto global de acesso a sua instância. 
 própria instância dela e caso não tenha ainda uma instância, então ela mesma cria e retorna essa nova instância criada.</p>
 
 <h2><b>Verificamos a imagem abaixo.</b></h2>
+
+
 ![padraosingleton_java1](https://user-images.githubusercontent.com/34414598/48813997-52483380-ed20-11e8-9f33-f0065e73e4f0.jpg)
 
-https://github.com/pgmedeiros/singleton/issues/1#issue-382923709
