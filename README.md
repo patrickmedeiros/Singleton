@@ -26,18 +26,18 @@ própria instância dela e caso não tenha ainda uma instância, então ela mesm
 
 <h2>Verificando a funcionalidade, na prática, do padrão de desenvolvimento</h2>
 
-<p>Criando uma classe Singleton com um construtor privado e um método getInstancia para realizar a verificação se a mesma é nula, se nula instância o objeto, caso não seja nula mantém a instância já criada</p>
+<p>Criando uma classe Singleton com um construtor privado e um método getInstancia para realizar a verificação se a mesma é nula, se nula instância o objeto, caso não seja nula mantém a instância já criada.</p>
 
 ![classe singleton](https://user-images.githubusercontent.com/34414598/49014036-e6255f80-f165-11e8-8328-228faaeab474.jpg)
 
-<p>Criando a classe principal com um construtor de Singleton, verificamos que ocorre um erro pelo fato de o mesmo ser privado, sendo necessária a instância da classe pelo método getInstancia</p>
+<p>Criando a classe principal com um construtor de Singleton, verificamos que ocorre um erro pelo fato de o mesmo ser privado, sendo necessária a instância da classe pelo método getInstancia.</p>
 
 ![principal com erro](https://user-images.githubusercontent.com/34414598/49014080-03f2c480-f166-11e8-9d28-ed550feaedda.jpg)
 
-<p>Reajustando a classe principal, retirando a instância pelo construtor e colocando a instância dentro de um laço de repetição</p>
+<p>Reajustando a classe principal, retirando a instância pelo construtor e colocando a instância dentro de um laço de repetição.</p>
 
 ![principal sem erro](https://user-images.githubusercontent.com/34414598/49014102-1967ee80-f166-11e8-9e0f-0783eff1c6d4.jpg)
 
-<p>Verificamos que a classe é instanciada somente uma vez, mostrando a mensagem contida no método getInstancia que está dentro da classe Singleton</p>
+<p>Verificamos que a classe é instanciada somente uma vez, mostrando a mensagem contida no método getInstancia que está dentro da classe Singleton.</p>
 
 ![terminal](https://user-images.githubusercontent.com/34414598/49014123-2be22800-f166-11e8-9830-69259bd972ef.jpg)
