@@ -7,14 +7,9 @@ public class Principal {
         
         carros = Carros.getInstancia();
         
-        System.out.println(carros.criarCarroFiat(4));
-        System.out.println(carros.criarCarroFord(5));
-        System.out.println(carros.criarCarroVolks(6));
-      
+        System.out.println(carros.criarCarroFiat());
+        System.out.println(carros.criarCarroFord());
+        System.out.println(carros.criarCarroVolks());
         System.out.println(carros.gerarRelatorio());
-        
-        carros = Carros.getInstancia();
-        
-        System.out.println(carros.gerarRelatorio());   
     }
 }

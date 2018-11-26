@@ -6,19 +6,19 @@ public class Carros {
     private int totalCarrosFord;
     private int totalCarrosVolks;
     
-    public String criarCarroVolks(int totalCarrosVolks){
-        return new String("Carros Volks #" + totalCarrosVolks + " criado."); 
+    public String criarCarroVolks(){
+        return new String("Carros Volks " + totalCarrosVolks + " criado."); 
     }
     
-    public String criarCarroFord(int totalCarrosFord){
-        return new String("Carros Ford #" + totalCarrosFord + " criado."); 
+    public String criarCarroFord(){
+        return new String("Carros Ford " + totalCarrosFord + " criado."); 
     }
     
-    public String criarCarroFiat(int totalCarrosFiat){
-        return new String("Carros Fiat #" + totalCarrosFiat + " criado."); 
+    public String criarCarroFiat(){
+        return new String("Carros Fiat " + totalCarrosFiat + " criado."); 
     }
     
-    public String gerarRelatorio(int totalCarrosFiat, int totalCarrosFord, int totalCarrosVolks) {
+    public String gerarRelatorio() {
         return new String("Total de carros Fiat vendidos: " + totalCarrosFiat
                 + "\nTotal de carros Ford vendidos: " + totalCarrosFord
                 + "\nTotal de carros Volks vendidos: " + totalCarrosVolks);
@@ -32,7 +32,6 @@ public class Carros {
  
     public static Carros getInstancia() {
         if (instancia == null){
-            System.out.println("aaaaa");
             instancia = new Carros();
         }
         return instancia;
