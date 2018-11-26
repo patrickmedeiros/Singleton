@@ -23,3 +23,12 @@ própria instância dela e caso não tenha ainda uma instância, então ela mesm
 ![padraosingleton_java1](https://user-images.githubusercontent.com/34414598/48813997-52483380-ed20-11e8-9f33-f0065e73e4f0.jpg)
 
 <p>Observando a imagem acima verificamos que ela se refereque ela se refere ao diagrama de classe do padrão Singleton, nela tem-se o atributo singleton que é do tipo da sua própria classe e é estático, nessa variável tem-se a única instância da classe. Nos métodos pode-se observar a presença do construtor da classe Singleton() que é PRIVADO. Ou seja, um construtor privado não permite que a classe seja instanciada a não ser que seja feito por ela mesmo na qual será instanciada pelo método getInstance() que é estático e assim pode ser acessado de qualquer outra classe sem precisar instanciar Singleton.</p>
+
+![captura de tela 2018-11-21 as 23 13 10](https://user-images.githubusercontent.com/34414598/49012621-14ed0700-f161-11e8-9b73-75e996df669d.png)
+
+![captura de tela 2018-11-21 as 23 13 23](https://user-images.githubusercontent.com/34414598/49012672-44037880-f161-11e8-9e24-3594003b2407.png)
+
+
+![captura de tela 2018-11-21 as 23 15 32](https://user-images.githubusercontent.com/34414598/49012718-6dbc9f80-f161-11e8-88fe-70553efc894a.png)
+
+![captura de tela 2018-11-21 as 23 16 02](https://user-images.githubusercontent.com/34414598/49012762-888f1400-f161-11e8-8bd8-491916e916d1.png)
