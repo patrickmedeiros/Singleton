@@ -24,11 +24,10 @@ própria instância dela e caso não tenha ainda uma instância, então ela mesm
 
 <p>Observando a imagem acima verificamos que ela se refereque ela se refere ao diagrama de classe do padrão Singleton, nela tem-se o atributo singleton que é do tipo da sua própria classe e é estático, nessa variável tem-se a única instância da classe. Nos métodos pode-se observar a presença do construtor da classe Singleton() que é PRIVADO. Ou seja, um construtor privado não permite que a classe seja instanciada a não ser que seja feito por ela mesmo na qual será instanciada pelo método getInstance() que é estático e assim pode ser acessado de qualquer outra classe sem precisar instanciar Singleton.</p>
 
-![captura de tela 2018-11-21 as 23 13 10](https://user-images.githubusercontent.com/34414598/49012621-14ed0700-f161-11e8-9b73-75e996df669d.png)
+![classe singleton](https://user-images.githubusercontent.com/34414598/49014036-e6255f80-f165-11e8-8328-228faaeab474.jpg)
 
-![captura de tela 2018-11-21 as 23 13 23](https://user-images.githubusercontent.com/34414598/49012672-44037880-f161-11e8-9e24-3594003b2407.png)
+![principal com erro](https://user-images.githubusercontent.com/34414598/49014080-03f2c480-f166-11e8-9d28-ed550feaedda.jpg)
 
+![principal sem erro](https://user-images.githubusercontent.com/34414598/49014102-1967ee80-f166-11e8-9e0f-0783eff1c6d4.jpg)
 
-![captura de tela 2018-11-21 as 23 15 32](https://user-images.githubusercontent.com/34414598/49012718-6dbc9f80-f161-11e8-88fe-70553efc894a.png)
-
-![captura de tela 2018-11-21 as 23 16 02](https://user-images.githubusercontent.com/34414598/49012762-888f1400-f161-11e8-8bd8-491916e916d1.png)
+![terminal](https://user-images.githubusercontent.com/34414598/49014123-2be22800-f166-11e8-9830-69259bd972ef.jpg)
