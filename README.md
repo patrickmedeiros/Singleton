@@ -1,5 +1,9 @@
 <h1>Singleton</h1>
 
+<h2>Integrantes do trabalho</h2>
+<td><li>• Patrick Gonçalves</li>
+  <li>• Rodrigo Pedrotti</li></td>
+
 <h2><b>Design Patterns</b></h2>
 <p>Elementos da programação orientada a objetos, encontrados em várias linguagens de programação como Java, C#, Delphi, 
 entre outras, pelo(s) qual(is) nos permite abstrair de maneira mais eficiente e porque não eficaz a recuperação de dados 
