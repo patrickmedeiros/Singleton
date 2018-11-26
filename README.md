@@ -1,8 +1,8 @@
 <h1>Singleton</h1>
 
 <h2>Integrantes do trabalho</h2>
-<td><li>• Patrick Gonçalves</li>
-  <li>• Rodrigo Pedrotti</li></td>
+<td><li>Patrick Gonçalves</li>
+  <li>Rodrigo Pedrotti</li></td>
 
 <h2><b>Design Patterns</b></h2>
 <p>Elementos da programação orientada a objetos, encontrados em várias linguagens de programação como Java, C#, Delphi, 
