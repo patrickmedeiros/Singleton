@@ -32,7 +32,7 @@ própria instância dela e caso não tenha ainda uma instância, então ela mesm
 
 <p>Criando a classe principal com um construtor de Singleton, verificamos que ocorre um erro pelo fato de o mesmo ser privado, sendo necessária a instância da classe pelo método getInstancia.</p>
 
-![principal com erro](https://user-images.githubusercontent.com/34414598/49014080-03f2c480-f166-11e8-9d28-ed550feaedda.jpg)
+![principal com erro](https://user-images.githubusercontent.com/34414598/49016887-90a18080-f16e-11e8-9f3b-171468a64820.jpg)
 
 <p>Reajustando a classe principal, retirando a instância pelo construtor e colocando a instância dentro de um laço de repetição.</p>
 
